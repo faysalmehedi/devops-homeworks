@@ -8,8 +8,8 @@ This is a very basic project. Create a Dockerfile to run a bash script in the co
 
 **The issue was the script was missing the "shebang" or "#!/bin/sh", which causes the error.**
 
-- Step 01: Install docker client on the machine.
-- step 02: Create a bash script
+- Step 01: Install docker client on the machine. Follow the offcial docs: https://docs.docker.com/engine/install/
+- step 02: Create a bash script named 'echo.sh'
 
 ```console
 #!/bin/bash
@@ -43,4 +43,4 @@ $ sudo docker run hello
 
 ## Screenshots
 
-![App Screenshot](https://github.com/faayam/devops-homeworks\hw01\final_screenshot.PNG)
+![App Screenshot](https://github.com/faayam/devops-homeworks/blob/main/hw01/final_screenshot.PNG)
